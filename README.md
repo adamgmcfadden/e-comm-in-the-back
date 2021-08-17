@@ -38,8 +38,7 @@ See instructional video:
 
 **Screenshot of Insomnia - API Route Testing**
 
-![Screenshot](https://user-images.githubusercontent.com/83710803/129788722-19877497-b12d-48bb-bd48-05e582bcff3d.png)
-
+![Screenshot](https://user-images.githubusercontent.com/83710803/129789050-17e9d593-8b14-4651-80d6-0fd12cb1a9bc.png)
 
 ## Credits
 
