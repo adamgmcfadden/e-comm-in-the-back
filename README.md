@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg "License Badge")
 ![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg "License Badge")
 
-The back-end of an e-commerce application that uses Express.js APIs, synced with Sequelize models to interact with a MySQL databse.
+The back-end of an e-commerce application that uses Express.js APIs, synced with Sequelize models to interact with a MySQL database.
 
 ## Table of Contents
 - [Installation Instructions](#installation-instructions)
