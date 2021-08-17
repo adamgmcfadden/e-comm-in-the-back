@@ -12,6 +12,7 @@ The back-end of an e-commerce application that uses Express.js APIs, synced with
 - [Credits](#credits)
 - [Licenses](#licenses)
 - [Contributing](#contributing)
+- [Testing](#testing)
 - [Contact Information](#contact-information)
 
 ## Installation Instructions
@@ -66,7 +67,7 @@ To test API Routes as shown in the instructional video and screenshot, complete 
 - Download Insomnia by Kong (one example of an app to test and build APIs)
 - Click on the "Create" button and choose the "Request Collection" option (give your collection a name)
 - Click on the "+" symbol on the left hand side and click on "New Request" (give your new request a name)
-- Enter the localhost url at the top (ex.: https://localhost:3001/api/products)
+- Enter the localhost url at the top
 - Choose the type of Route you'd like to test by clicking the drop down list (ex.: GET, POST, PUT, DELETE)
 - Start your server with "npm start" (for node) or "npm run watch" (for nodemon) 
 - To find, delete or update one item, remember to enter the unique identifier in the url (in this case the item's id)
