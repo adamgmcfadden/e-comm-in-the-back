@@ -16,7 +16,14 @@ router.get("/", (req, res) => {
         model: Tag,
       },
     ],
-  }).then((dbProductData) => res.json(dbProductData));
+    // send db response for all product with their category_id and tag_id to user
+  })
+    .then((dbProductData) => res.json(dbProductData))
+    //if error, send error to user
+    .catch((err) => {
+      console.log(err);
+      res.status(500).json(err);
+    });
 });
 
 // get one product
@@ -36,13 +43,17 @@ router.get("/:id", (req, res) => {
       },
     ],
   })
+
     .then((dbProductData) => {
+      //if id does not exists, alert user and return
       if (!dbProductData) {
         res.status(404).json({ message: "No product found with this id" });
         return;
       }
+      //send db response for single product along with its category_id and tag_id to user
       res.json(dbProductData);
     })
+    //if error, send error to user
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
@@ -131,12 +142,15 @@ router.delete("/:id", (req, res) => {
     },
   })
     .then((dbProductData) => {
+      //if id does not exists, alert user and return
       if (!dbProductData) {
         res.status(404).json({ message: "No product found with this id" });
         return;
       }
+      //delete product in db if id exists
       res.json(dbProductData);
     })
+    //if error, send error to user
     .catch((err) => {
       console.log(err);
       res.status(500).json(err);
