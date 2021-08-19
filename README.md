@@ -35,7 +35,15 @@ Congrats! All the required packages have been installed and you're ready to use 
 
 ## Usage
 
-See instructional video:
+For instructions on how to use the app, please click the link below and watch the instructional videos:
+
+Part 1 
+
+https://drive.google.com/file/d/1in6tjqfY63GN4H8f1H9rOPAOm-9CVecp/view
+
+Part 2
+
+https://drive.google.com/file/d/1M4936sVv1Q_mRAxodM1gTmKrRveO20FK/view
 
 **Screenshot of Insomnia - API Route Testing**
 
